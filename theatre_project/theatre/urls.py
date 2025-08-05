@@ -19,3 +19,4 @@ router.register(r'tickets', TicketViewSet)
 urlpatterns = [
     path('', include(router.urls)),
     path('book/', BookTicketsView.as_view(), name='book-tickets'),
+]
