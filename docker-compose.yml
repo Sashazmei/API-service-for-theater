@@ -5,6 +5,6 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - ./theatre_project:/app
+      - ./config:/app
     env_file:
       - .env
